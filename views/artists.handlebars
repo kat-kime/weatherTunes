@@ -1,0 +1,23 @@
+<section>
+  <div align="center">
+    <h2>Featured Artist</h2>
+    <img src = {{picture}} width = "800">
+  </div>
+</section>
+
+<section>
+
+  <div class = "artist-list">
+    <p>Love your tunes? Get the list here.
+    <button type="button" onclick="window.open('/artistList.txt');">Download</button>
+  </p>
+    <ul>
+    {{#each artistList}}
+    <li><strong>{{artist}}</strong> - "{{title}}"</li>
+    <br />
+    {{/each}}
+  </ul>
+
+  </div>
+
+</section>

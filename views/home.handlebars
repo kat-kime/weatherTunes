@@ -1,0 +1,118 @@
+<section class = "featured-artists">
+  <div class="slideshow-container">
+
+   <div class="mySlides fade">
+     <img src="Clowdy-Artist.png" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <img src="Rainy-Artist.png" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <img src="Sunny-Artist.png" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <img src="Snowy-Artist.png" style="width:100%">
+   </div>
+
+   <!-- Next and previous buttons -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+
+ <!-- The dots/circles -->
+ <div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+ </div>
+
+
+</section>
+
+<section id="weather-tunes">
+  <h2>What is Weather Tunes?</h2>
+  <p>
+    Weather Tunes is your interactive playlist that's based on your local weather.
+    Just enter your zip code, and we'll generate a playlist to fit your meterologist mood.
+  </p>
+
+<div id="weather-form">
+  <form>
+    <fieldset>
+      <label>City:
+        <input id ="city" type ="text" name="city" size = "30" maxlength="100">
+      </label>
+      <label>State:
+        <select id="state" name="state" id="state">
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Deleware</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virgina</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virgina</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+          </select>
+      <input id="weather-submit" type="submit" value="OK">
+    </fieldset>
+  </form>
+</div>
+
+</section>
+<section>
+  <h2 id="weather-reveal"></h2>
+  <div id ="playlist"></div>
+</section>
+<section>
+  <p class = "image-links"><strong>Image Sources:</strong><br />
+    Talking Heads: Rock & Roll Hall of Fame,
+    Metronomy: Wexner Center for the Arts,
+    Sofi Tukker: GRAMMY.Com,
+    Toro Y Moi: Toro Y Moi Website
+  </p>
+</section>
+
+<script src = {{script}}></script>
+<script src = {{artistScript}}></script>
