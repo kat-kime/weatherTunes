@@ -3,7 +3,7 @@
  */
 
 // API Key
-var apiKey = "71c8945bd722c0d2516350227eaca8c3";
+var apiKey = "";
 
 // Submit Button
 var submitButton = document.getElementById("weather-submit");
