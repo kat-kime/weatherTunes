@@ -4,7 +4,8 @@
 **Weather Tunes** is a web application that allows users to generate a Spotify playlist based on the user's local weather. The goal is for users to be able to listen to music that matches their surrounding's mood.
 
 ## How I Built It
-The backend functionality was built using Javascript, Node.js, Express.js, Handlebars.js and AJAX calls to the OpenWeatherMap API. The frontend was built using Javascript, HTML, and CSS.
+The backend functionality was built using Javascript, Node.js, Express.js, Handlebars.js and AJAX calls to the OpenWeatherMap API. 
+The frontend was built using Javascript, HTML, and CSS.
 
 ## Video Walkthrough
 Each user can:
