@@ -37,9 +37,10 @@ var apiCall = function(event) {
       document.getElementById('weather-reveal').textContent = "The weather in " + city + ": " + weather;
 
       // Delivering Playlist
-      if (weather.includes("cloud")) {
+      if (weather.includes("cloud") || weather.includes("smoke") || (weather.includes("haze") || weather.includes("fog"))) {
         document.getElementById('playlist').innerHTML = clowdyPlaylist;
       }
+      
       else if (weather.includes("clear")) {
         document.getElementById('playlist').innerHTML = sunnyPlaylist;
       }
